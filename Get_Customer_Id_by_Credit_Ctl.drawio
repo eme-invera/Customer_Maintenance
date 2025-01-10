@@ -13,18 +13,6 @@
         <mxCell id="PUY2As8JfxjbPaMjvpyU-2" value="&lt;div&gt;&quot;SELECT cus_admin_brh, cus_actv, cus_cus_acct_typ, cus_cus_id, cus_cus_nm, cus_cus_long_nm, crd_cr_ctl_cus_id, crd_cr_rvw_dt, crd_cr_auth FROM arrcus_rec, arrcrd_rec WHERE&lt;/div&gt;&lt;div&gt;&amp;nbsp;crd_cus_id = cus_cus_id AND crd_cmpy_id = cus_cmpy_id AND crd_cr_ctl_cus_id=&#39;%-.*s&#39; AND crd_cmpy_id=&#39;%-.*s&#39; &lt;b&gt;$WhereClFilter $WhereClNxtPage&amp;nbsp;&lt;/b&gt;order by cus_cus_nm limit %d &quot;&lt;/div&gt;" style="shape=document;html=1;boundedLbl=1;whiteSpace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="212.5" y="910" width="520" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="PUY2As8JfxjbPaMjvpyU-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PUY2As8JfxjbPaMjvpyU-4" target="PUY2As8JfxjbPaMjvpyU-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PUY2As8JfxjbPaMjvpyU-4" value="ARRCRD" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="780" y="890" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="PUY2As8JfxjbPaMjvpyU-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PUY2As8JfxjbPaMjvpyU-5" target="PUY2As8JfxjbPaMjvpyU-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PUY2As8JfxjbPaMjvpyU-5" value="ARRCUS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="780" y="1030" width="60" height="80" as="geometry" />
-        </mxCell>
         <UserObject label="Get User Role" link="https://viewer.diagrams.net/?tags=%7B%7D&amp;lightbox=1&amp;highlight=0000ff&amp;edit=_blank&amp;layers=1&amp;nav=1&amp;title=Get_User_Role.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Feme-invera%2FCustomer_Maintenance%2Fmain%2FGet_User_Role.drawio" id="PUY2As8JfxjbPaMjvpyU-6">
           <mxCell style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
             <mxGeometry x="360" y="40" width="170" height="100" as="geometry" />
@@ -59,7 +47,7 @@
         <mxCell id="PUY2As8JfxjbPaMjvpyU-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="PUY2As8JfxjbPaMjvpyU-14" target="PUY2As8JfxjbPaMjvpyU-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PUY2As8JfxjbPaMjvpyU-14" value="Has Other Roles?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="PUY2As8JfxjbPaMjvpyU-14" value="User Has Other Roles?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="399" y="520" width="147" height="120" as="geometry" />
         </mxCell>
         <mxCell id="PUY2As8JfxjbPaMjvpyU-16" value="&lt;div&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: left;&quot;&gt;$WhereClFilter&lt;/b&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;and (exists (select * from scrslp_rec, arrshp_rec where slp_cmpy_id = shp_cmpy_id and shp_cus_id = cus_cus_id and (slp_slp = shp_is_slp o&lt;/div&gt;&lt;div&gt;r slp_slp = shp_os_slp) and slp_lgn_id = &#39;%-.*s&#39;) or exists (select * from mxvubf_rec where cus_admin_brh = &#39;%-.*s&#39; and&amp;nbsp; ubf_brh = &#39;%-.*s&#39;))&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
@@ -104,24 +92,6 @@
         <mxCell id="Df34wnRem0RogNqcHzMV-2" value="Get Customer Credit and Credit Authority" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="343.75" y="1190" width="257.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Df34wnRem0RogNqcHzMV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Df34wnRem0RogNqcHzMV-4" target="Df34wnRem0RogNqcHzMV-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Df34wnRem0RogNqcHzMV-4" value="ARRCRD" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="690" y="1120" width="60" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Df34wnRem0RogNqcHzMV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="Df34wnRem0RogNqcHzMV-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="600" y="1230" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="650" y="1300" />
-              <mxPoint x="650" y="1230" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Df34wnRem0RogNqcHzMV-6" value="ARRCRD" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="690" y="1260" width="60" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="Df34wnRem0RogNqcHzMV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Df34wnRem0RogNqcHzMV-8" target="Df34wnRem0RogNqcHzMV-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="473" y="1580" as="targetPoint" />
@@ -129,12 +99,6 @@
         </mxCell>
         <mxCell id="Df34wnRem0RogNqcHzMV-8" value="Get Customer Vendor and Address" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="352" y="1380" width="241" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="Df34wnRem0RogNqcHzMV-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Df34wnRem0RogNqcHzMV-10" target="Df34wnRem0RogNqcHzMV-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Df34wnRem0RogNqcHzMV-10" value="SCRCVA" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="700" y="1385" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Df34wnRem0RogNqcHzMV-11" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Df34wnRem0RogNqcHzMV-13" target="Df34wnRem0RogNqcHzMV-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
