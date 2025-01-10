@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.5">
   <diagram name="Page-1" id="2q4WQ-y5YPMEOby6-Ocd">
-    <mxGraphModel dx="1426" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="1891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PUY2As8JfxjbPaMjvpyU-1" value="START" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="-490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0YLir6foTUzBwSidbCCe-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.501;exitY=0.846;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PUY2As8JfxjbPaMjvpyU-2" target="GyOAUzoT9n3BgatkXJdA-5" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -37,7 +37,7 @@
         <mxCell id="PUY2As8JfxjbPaMjvpyU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PUY2As8JfxjbPaMjvpyU-6" target="PUY2As8JfxjbPaMjvpyU-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PUY2As8JfxjbPaMjvpyU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.059;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="PUY2As8JfxjbPaMjvpyU-1" target="PUY2As8JfxjbPaMjvpyU-6" edge="1">
+        <mxCell id="PUY2As8JfxjbPaMjvpyU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PUY2As8JfxjbPaMjvpyU-1" target="scJh_rXfD8qKjJM4y8Ft-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PUY2As8JfxjbPaMjvpyU-21" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PUY2As8JfxjbPaMjvpyU-14" target="PUY2As8JfxjbPaMjvpyU-20" edge="1">
@@ -133,31 +133,57 @@
         <mxCell id="0YLir6foTUzBwSidbCCe-17" value="Return" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="433" y="2197.5" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GyOAUzoT9n3BgatkXJdA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GyOAUzoT9n3BgatkXJdA-1" target="0YLir6foTUzBwSidbCCe-7">
+        <mxCell id="GyOAUzoT9n3BgatkXJdA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GyOAUzoT9n3BgatkXJdA-1" target="0YLir6foTUzBwSidbCCe-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GyOAUzoT9n3BgatkXJdA-1" value="select * from scrcva where&amp;nbsp;ref_pfx = &#39;CU&#39; and cus_ven_typ = &#39;C&#39; and add_no = zeroes and addr_typ = O and cus_ven_id = &lt;b&gt;$input_Customer_ID&lt;/b&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="GyOAUzoT9n3BgatkXJdA-1" value="select * from scrcva where&amp;nbsp;ref_pfx = &#39;CU&#39; and cus_ven_typ = &#39;C&#39; and add_no = zeroes and addr_typ = O and cus_ven_id = &lt;b&gt;$input_Customer_ID&lt;/b&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="1555" width="270" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="GyOAUzoT9n3BgatkXJdA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyOAUzoT9n3BgatkXJdA-3" target="0YLir6foTUzBwSidbCCe-1">
+        <mxCell id="GyOAUzoT9n3BgatkXJdA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GyOAUzoT9n3BgatkXJdA-3" target="0YLir6foTUzBwSidbCCe-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GyOAUzoT9n3BgatkXJdA-3" value="select * from arrcra_rec where cr_auth =&amp;nbsp;&lt;b&gt;$ARRCUS_CusID&lt;/b&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="GyOAUzoT9n3BgatkXJdA-3" value="select * from arrcra_rec where cr_auth =&amp;nbsp;&lt;b&gt;$ARRCUS_CusID&lt;/b&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="750" y="1360" width="270" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="GyOAUzoT9n3BgatkXJdA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyOAUzoT9n3BgatkXJdA-5" target="0YLir6foTUzBwSidbCCe-1">
+        <mxCell id="GyOAUzoT9n3BgatkXJdA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GyOAUzoT9n3BgatkXJdA-5" target="0YLir6foTUzBwSidbCCe-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GyOAUzoT9n3BgatkXJdA-5" value="&lt;div&gt;Read ARRCRD&lt;/div&gt;(Get Customer Credit and Credit Authority)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GyOAUzoT9n3BgatkXJdA-5" value="&lt;div&gt;Read ARRCRD&lt;/div&gt;(Get Customer Credit and Credit Authority)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="344.25" y="1190" width="257.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="GyOAUzoT9n3BgatkXJdA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyOAUzoT9n3BgatkXJdA-7" target="GyOAUzoT9n3BgatkXJdA-5">
+        <mxCell id="GyOAUzoT9n3BgatkXJdA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GyOAUzoT9n3BgatkXJdA-7" target="GyOAUzoT9n3BgatkXJdA-5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="920" y="1230" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GyOAUzoT9n3BgatkXJdA-7" value="select * from arrcrd_rec where cr_auth =&amp;nbsp;&lt;b&gt;$&lt;/b&gt;&lt;span style=&quot;text-align: left;&quot;&gt;arrcus.&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;cus_cus_id&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="GyOAUzoT9n3BgatkXJdA-7" value="select * from arrcrd_rec where cr_auth =&amp;nbsp;&lt;b&gt;$&lt;/b&gt;&lt;span style=&quot;text-align: left;&quot;&gt;arrcus.&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;cus_cus_id&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="1170" width="270" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="scJh_rXfD8qKjJM4y8Ft-1" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="scJh_rXfD8qKjJM4y8Ft-3" target="scJh_rXfD8qKjJM4y8Ft-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="scJh_rXfD8qKjJM4y8Ft-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="scJh_rXfD8qKjJM4y8Ft-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="-160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="scJh_rXfD8qKjJM4y8Ft-3" value="Customer Acct Type Filter&lt;br&gt;On? ($Input_Cust_type)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="-360" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="scJh_rXfD8qKjJM4y8Ft-4" value="&lt;b&gt;$Customer_Filter&lt;/b&gt; = &quot;AND cus_cus_acct_typ&amp;nbsp; = $Input_Cust_type" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="-350" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="scJh_rXfD8qKjJM4y8Ft-5" value="Filter : Include Inactive?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="-160" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="scJh_rXfD8qKjJM4y8Ft-6" value="&lt;b&gt;$Inactive_Filter&lt;/b&gt; = &quot;AND AND cus_actv = 1&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-140" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="scJh_rXfD8qKjJM4y8Ft-7" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="scJh_rXfD8qKjJM4y8Ft-5" target="scJh_rXfD8qKjJM4y8Ft-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="scJh_rXfD8qKjJM4y8Ft-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.571;entryY=0.13;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="scJh_rXfD8qKjJM4y8Ft-5" target="PUY2As8JfxjbPaMjvpyU-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
