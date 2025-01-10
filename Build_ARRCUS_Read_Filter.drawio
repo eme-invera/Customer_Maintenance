@@ -1,9 +1,101 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.4">
   <diagram name="Page-1" id="cI6VHz1JdNu4_8iZnLbt">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eQzpF3mo_qRaEqn4GsIe-1" target="eQzpF3mo_qRaEqn4GsIe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-1" value="START" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-4" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eQzpF3mo_qRaEqn4GsIe-2" target="eQzpF3mo_qRaEqn4GsIe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eQzpF3mo_qRaEqn4GsIe-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-2" value="Customer Acct Type Filter&lt;br&gt;On? ($Input_Cust_type)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="230" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-3" value="&lt;b&gt;$Customer_Filter&lt;/b&gt; = &quot;AND cus_cus_acct_typ&amp;nbsp; = $Input_Cust_type" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="240" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-7" value="Filter : Include Inactive?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="430" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-8" value="&lt;b&gt;$Inactive_Filter&lt;/b&gt; = &quot;AND AND cus_actv = 1&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="450" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-9" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eQzpF3mo_qRaEqn4GsIe-7" target="eQzpF3mo_qRaEqn4GsIe-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-11" value="&lt;div&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: left;&quot;&gt;$WhereClFilter&lt;/b&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;and (exists (select * from scrslp_rec, arrshp_rec where slp_cmpy_id = shp_cmpy_id and shp_cus_id = cus_cus_id and (slp_slp = shp_is_slp o&lt;span style=&quot;text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;r slp_slp = shp_os_slp) and slp_lgn_id = &#39;%-.*s&#39;) or exists (select * from mxvubf_rec where ubf_lgn_id = &#39;%-.*s&#39; and ubf_brh = cus_admin_brh))&lt;/span&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1026" y="590" width="520" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-12" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eQzpF3mo_qRaEqn4GsIe-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="776" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eQzpF3mo_qRaEqn4GsIe-14" target="eQzpF3mo_qRaEqn4GsIe-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-27" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eQzpF3mo_qRaEqn4GsIe-13">
+          <mxGeometry x="-0.2941" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-14" value="ISP or OSP Role?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="516" y="680" width="165" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eQzpF3mo_qRaEqn4GsIe-7" target="eQzpF3mo_qRaEqn4GsIe-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="601" y="725" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-16" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eQzpF3mo_qRaEqn4GsIe-17" target="eQzpF3mo_qRaEqn4GsIe-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eQzpF3mo_qRaEqn4GsIe-17" target="eQzpF3mo_qRaEqn4GsIe-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-17" value="Has Other Roles?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="526.5" y="990" width="147" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-18" value="&lt;div&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: left;&quot;&gt;$WhereClFilter&lt;/b&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;and (exists (select * from scrslp_rec, arrshp_rec where slp_cmpy_id = shp_cmpy_id and shp_cus_id = cus_cus_id and (slp_slp = shp_is_slp o&lt;/div&gt;&lt;div&gt;r slp_slp = shp_os_slp) and slp_lgn_id = &#39;%-.*s&#39;) or exists (select * from mxvubf_rec where cus_admin_brh = &#39;%-.*s&#39; and&amp;nbsp; ubf_brh = &#39;%-.*s&#39;))&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1026" y="730" width="520" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-19" value="All Branch?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="776" y="710" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-20" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.002;entryY=0.438;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eQzpF3mo_qRaEqn4GsIe-19" target="eQzpF3mo_qRaEqn4GsIe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-21" value="Specific" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eQzpF3mo_qRaEqn4GsIe-19" target="eQzpF3mo_qRaEqn4GsIe-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-22" value="&lt;div&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: left;&quot;&gt;$WhereClFilter&lt;/b&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;and (exists (select * from mxvubf_rec, arrshp_rec where ubf_lgn_id = &#39;%-.*s&#39; and ubf_cmpy_id = shp_cmpy_id and shp_cus_id = cus_cus_id an&lt;/div&gt;&lt;div&gt;d ubf_brh = shp_admin_brh) or exists (select * from mxvubf_rec where ubf_lgn_id = &#39;%-.*s&#39; and ubf_brh = cus_admin_brh))&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1036" y="910" width="520" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-23" value="&lt;div&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;$WhereClFilter&lt;/b&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;and (exists (select * from mxvubf_rec, arrshp_rec where ubf_lgn_id = &#39;%-.*s&#39; and ubf_cmpy_id = shp_cmpy_id and shp_cus_id = cus_cus_id an&lt;/div&gt;&lt;div&gt;d ubf_brh = shp_admin_brh and ubf_brh = &#39;%-.*s&#39;) or exists (select * from mxvubf_rec where cus_admin_brh = &#39;%-.*s&#39; and&amp;nbsp; &amp;nbsp;ubf_brh = &#39;%-.*s&#39;))&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1036" y="1050" width="520" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-24" value="All Branch?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="990" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-25" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.002;entryY=0.438;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eQzpF3mo_qRaEqn4GsIe-24" target="eQzpF3mo_qRaEqn4GsIe-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-26" value="Specific" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eQzpF3mo_qRaEqn4GsIe-24" target="eQzpF3mo_qRaEqn4GsIe-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eQzpF3mo_qRaEqn4GsIe-28" value="STOP ERROR" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1010" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
