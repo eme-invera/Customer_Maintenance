@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.5">
   <diagram name="Page-1" id="1rPzpoxqX58rYd35wdLm">
-    <mxGraphModel dx="1426" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="1891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6EA0tXDiRwv_CL1e7f09-2" value="START" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="382.5" y="-460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6EA0tXDiRwv_CL1e7f09-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.501;exitY=0.846;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6EA0tXDiRwv_CL1e7f09-4" target="6EA0tXDiRwv_CL1e7f09-45">
           <mxGeometry relative="1" as="geometry">
@@ -37,7 +37,7 @@
         <mxCell id="6EA0tXDiRwv_CL1e7f09-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6EA0tXDiRwv_CL1e7f09-5" target="6EA0tXDiRwv_CL1e7f09-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6EA0tXDiRwv_CL1e7f09-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.059;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6EA0tXDiRwv_CL1e7f09-2" target="6EA0tXDiRwv_CL1e7f09-5">
+        <mxCell id="6EA0tXDiRwv_CL1e7f09-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6EA0tXDiRwv_CL1e7f09-2" target="6EA0tXDiRwv_CL1e7f09-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6EA0tXDiRwv_CL1e7f09-12" value="NO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6EA0tXDiRwv_CL1e7f09-15" target="6EA0tXDiRwv_CL1e7f09-20">
@@ -158,6 +158,29 @@
         </mxCell>
         <mxCell id="6EA0tXDiRwv_CL1e7f09-47" value="select * from arrcrd_rec where cr_auth =&amp;nbsp;&lt;b&gt;$&lt;/b&gt;&lt;span style=&quot;text-align: left;&quot;&gt;arrcus.&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;cus_cus_id&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="1170" width="270" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="6EA0tXDiRwv_CL1e7f09-48" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6EA0tXDiRwv_CL1e7f09-50" target="6EA0tXDiRwv_CL1e7f09-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6EA0tXDiRwv_CL1e7f09-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6EA0tXDiRwv_CL1e7f09-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="-130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6EA0tXDiRwv_CL1e7f09-50" value="Customer Acct Type Filter&lt;br&gt;On? ($Input_Cust_type)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-330" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6EA0tXDiRwv_CL1e7f09-51" value="&lt;b&gt;$Customer_Filter&lt;/b&gt; = &quot;AND cus_cus_acct_typ&amp;nbsp; = $Input_Cust_type" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="-320" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6EA0tXDiRwv_CL1e7f09-52" value="Filter : Include Inactive?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-130" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6EA0tXDiRwv_CL1e7f09-53" value="&lt;b&gt;$Inactive_Filter&lt;/b&gt; = &quot;AND AND cus_actv = 1&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="-110" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6EA0tXDiRwv_CL1e7f09-54" value="YES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6EA0tXDiRwv_CL1e7f09-52" target="6EA0tXDiRwv_CL1e7f09-53">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
