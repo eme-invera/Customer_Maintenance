@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.5">
   <diagram name="Page-1" id="2q4WQ-y5YPMEOby6-Ocd">
-    <mxGraphModel dx="1426" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,9 +25,11 @@
         <mxCell id="PUY2As8JfxjbPaMjvpyU-5" value="ARRCUS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="780" y="1030" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PUY2As8JfxjbPaMjvpyU-6" value="Get User Role" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="40" width="170" height="100" as="geometry" />
-        </mxCell>
+        <UserObject label="Get User Role" link="https://viewer.diagrams.net/?tags=%7B%7D&amp;lightbox=1&amp;highlight=0000ff&amp;edit=_blank&amp;layers=1&amp;nav=1&amp;title=Get_User_Role.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Feme-invera%2FCustomer_Maintenance%2Fmain%2FGet_User_Role.drawio" id="PUY2As8JfxjbPaMjvpyU-6">
+          <mxCell style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="360" y="40" width="170" height="100" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="PUY2As8JfxjbPaMjvpyU-7" value="&lt;div&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: left;&quot;&gt;$WhereClFilter&lt;/b&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;and (exists (select * from scrslp_rec, arrshp_rec where slp_cmpy_id = shp_cmpy_id and shp_cus_id = cus_cus_id and (slp_slp = shp_is_slp o&lt;span style=&quot;text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;r slp_slp = shp_os_slp) and slp_lgn_id = &#39;%-.*s&#39;) or exists (select * from mxvubf_rec where ubf_lgn_id = &#39;%-.*s&#39; and ubf_brh = cus_admin_brh))&lt;/span&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="910" y="80" width="520" height="130" as="geometry" />
         </mxCell>
