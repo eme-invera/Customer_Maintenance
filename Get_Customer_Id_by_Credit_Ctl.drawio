@@ -12,7 +12,7 @@
             <mxPoint x="470" y="1180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PUY2As8JfxjbPaMjvpyU-2" value="&lt;div&gt;&quot;SELECT cus_admin_brh, cus_actv, cus_cus_acct_typ, cus_cus_id, cus_cus_nm, cus_cus_long_nm, crd_cr_ctl_cus_id, crd_cr_rvw_dt, crd_cr_auth FROM arrcus_rec, arrcrd_rec WHERE&lt;/div&gt;&lt;div&gt;&amp;nbsp;crd_cus_id = cus_cus_id AND crd_cmpy_id = cus_cmpy_id AND crd_cr_ctl_cus_id=&#39;%-.*s&#39; AND crd_cmpy_id=&#39;%-.*s&#39; &lt;b&gt;$WhereClFilter $WhereClNxtPage&amp;nbsp;&lt;/b&gt;order by cus_cus_nm limit %d &quot;&lt;/div&gt;" style="shape=document;html=1;boundedLbl=1;whiteSpace=wrap;align=left;" parent="1" vertex="1">
+        <mxCell id="PUY2As8JfxjbPaMjvpyU-2" value="&lt;div&gt;&quot;SELECT cus_admin_brh, cus_actv, cus_cus_acct_typ, cus_cus_id, cus_cus_nm, cus_cus_long_nm,&amp;nbsp;&lt;/div&gt;&lt;div&gt;, crd_cr_rvw_dt, crd_cr_auth FROM arrcus_rec, arrcrd_rec WHERE&lt;/div&gt;&lt;div&gt;&amp;nbsp;crd_cus_id = cus_cus_id AND crd_cmpy_id = cus_cmpy_id AND crd_cr_ctl_cus_id=&#39;%-.*s&#39; AND crd_cmpy_id=&#39;%-.*s&#39; &lt;b&gt;$WhereClFilter $WhereClNxtPage&amp;nbsp;&lt;/b&gt;order by cus_cus_nm limit %d &quot;&lt;/div&gt;" style="shape=document;html=1;boundedLbl=1;whiteSpace=wrap;align=left;" parent="1" vertex="1">
           <mxGeometry x="212.5" y="910" width="520" height="180" as="geometry" />
         </mxCell>
         <UserObject label="Get User Role" link="https://viewer.diagrams.net/?tags=%7B%7D&amp;lightbox=1&amp;highlight=0000ff&amp;edit=_blank&amp;layers=1&amp;nav=1&amp;title=Get_User_Role.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Feme-invera%2FCustomer_Maintenance%2Fmain%2FGet_User_Role.drawio" id="PUY2As8JfxjbPaMjvpyU-6">
@@ -140,7 +140,7 @@
         <mxCell id="TeINZwC1lMt_KERLXiga-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TeINZwC1lMt_KERLXiga-7" target="TeINZwC1lMt_KERLXiga-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TeINZwC1lMt_KERLXiga-7" value="select * from arrcra_rec where cr_auth =&amp;nbsp;&lt;b&gt;$ARRCUS_CusID&lt;/b&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="TeINZwC1lMt_KERLXiga-7" value="select * from arrcra_rec where cr_auth =&amp;nbsp;&lt;b&gt;$ARRCRD_CR_AUTH&lt;/b&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="1272.5" width="270" height="135" as="geometry" />
         </mxCell>
         <mxCell id="TeINZwC1lMt_KERLXiga-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.541;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="TeINZwC1lMt_KERLXiga-2" target="TeINZwC1lMt_KERLXiga-3">
@@ -150,14 +150,14 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TeINZwC1lMt_KERLXiga-9" value="&lt;div&gt;Read ARRCRD&lt;/div&gt;(Get Customer Credit and Credit Authority)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="335.5" y="1160" width="257.5" height="80" as="geometry" />
+          <mxGeometry x="344.25" y="1140" width="257.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="TeINZwC1lMt_KERLXiga-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="TeINZwC1lMt_KERLXiga-9" source="TeINZwC1lMt_KERLXiga-12">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="920" y="1180" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TeINZwC1lMt_KERLXiga-12" value="select * from arrcrd_rec where cr_auth =&amp;nbsp;&lt;b&gt;$ARRCUS_CusID&lt;/b&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="TeINZwC1lMt_KERLXiga-12" value="select * from arrcrd_rec where cr_auth =&amp;nbsp;&lt;b&gt;$&lt;/b&gt;&lt;span style=&quot;text-align: left;&quot;&gt;crd_cr_ctl_cus_id&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="760" y="1120" width="270" height="135" as="geometry" />
         </mxCell>
       </root>
