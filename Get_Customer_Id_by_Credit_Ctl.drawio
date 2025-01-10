@@ -62,8 +62,8 @@
         <mxCell id="PUY2As8JfxjbPaMjvpyU-19" value="Specific" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="PUY2As8JfxjbPaMjvpyU-17" target="PUY2As8JfxjbPaMjvpyU-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PUY2As8JfxjbPaMjvpyU-20" value="STOP Error" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="540" width="120" height="80" as="geometry" />
+        <mxCell id="PUY2As8JfxjbPaMjvpyU-20" value="STOP &lt;br&gt;Error:&amp;nbsp;&lt;br&gt;User Role does not allow to access Account" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="515" width="170" height="130" as="geometry" />
         </mxCell>
         <mxCell id="PUY2As8JfxjbPaMjvpyU-22" value="&lt;div&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; text-align: left;&quot;&gt;$WhereClFilter&lt;/b&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;and (exists (select * from mxvubf_rec, arrshp_rec where ubf_lgn_id = &#39;%-.*s&#39; and ubf_cmpy_id = shp_cmpy_id and shp_cus_id = cus_cus_id an&lt;/div&gt;&lt;div&gt;d ubf_brh = shp_admin_brh) or exists (select * from mxvubf_rec where ubf_lgn_id = &#39;%-.*s&#39; and ubf_brh = cus_admin_brh))&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="400" width="520" height="130" as="geometry" />
