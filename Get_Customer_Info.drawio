@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.4">
   <diagram name="Page-1" id="l2Kele2ydAgOPlvw6YNG">
     <mxGraphModel dx="1426" dy="791" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,14 +13,8 @@
         <mxCell id="XzEUsxfF51lW0wZKHU5--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="XzEUsxfF51lW0wZKHU5--2" target="XzEUsxfF51lW0wZKHU5--6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XzEUsxfF51lW0wZKHU5--2" value="Read ARRCUS" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="XzEUsxfF51lW0wZKHU5--2" value="Read ARRCUS&lt;br&gt;(Customer Information Table)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="415" y="200" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="XzEUsxfF51lW0wZKHU5--3" value="ARRCUS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="850" y="190" width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="XzEUsxfF51lW0wZKHU5--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="XzEUsxfF51lW0wZKHU5--2" target="XzEUsxfF51lW0wZKHU5--3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XzEUsxfF51lW0wZKHU5--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="XzEUsxfF51lW0wZKHU5--6" target="XzEUsxfF51lW0wZKHU5--9" edge="1">
           <mxGeometry relative="1" as="geometry" />
