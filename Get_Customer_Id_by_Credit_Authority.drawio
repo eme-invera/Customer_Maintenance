@@ -89,7 +89,7 @@
         <mxCell id="0YLir6foTUzBwSidbCCe-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0YLir6foTUzBwSidbCCe-1" target="0YLir6foTUzBwSidbCCe-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0YLir6foTUzBwSidbCCe-1" value="Get Customer Credit and Credit Authority" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="0YLir6foTUzBwSidbCCe-1" value="&lt;div&gt;Read ARRCRA&lt;/div&gt;(Get Customer Credit and Credit Authority)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="343.75" y="1190" width="257.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0YLir6foTUzBwSidbCCe-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="0YLir6foTUzBwSidbCCe-7" target="0YLir6foTUzBwSidbCCe-14" edge="1">
@@ -140,7 +140,7 @@
         <mxCell id="GyOAUzoT9n3BgatkXJdA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyOAUzoT9n3BgatkXJdA-3" target="0YLir6foTUzBwSidbCCe-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GyOAUzoT9n3BgatkXJdA-3" value="select * from arrcra_rec where cr_auth =&amp;nbsp;&lt;b&gt;$Credit_Auth&lt;/b&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="GyOAUzoT9n3BgatkXJdA-3" value="select * from arrcra_rec where cr_auth =&amp;nbsp;&lt;b&gt;$ARRCUS_CusID&lt;/b&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="1162.5" width="270" height="135" as="geometry" />
         </mxCell>
       </root>
