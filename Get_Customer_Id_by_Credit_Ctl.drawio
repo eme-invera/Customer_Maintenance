@@ -41,8 +41,8 @@
         <mxCell id="PUY2As8JfxjbPaMjvpyU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="PUY2As8JfxjbPaMjvpyU-9" target="PUY2As8JfxjbPaMjvpyU-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PUY2As8JfxjbPaMjvpyU-9" value="ISP or OSP Role?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="370" y="190" width="165" height="150" as="geometry" />
+        <mxCell id="PUY2As8JfxjbPaMjvpyU-9" value="ISP or OSP Role?&amp;nbsp;&lt;br&gt;(User has Salesperson Role)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="366" y="210" width="180" height="180" as="geometry" />
         </mxCell>
         <mxCell id="PUY2As8JfxjbPaMjvpyU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PUY2As8JfxjbPaMjvpyU-6" target="PUY2As8JfxjbPaMjvpyU-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
